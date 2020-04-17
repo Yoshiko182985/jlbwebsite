@@ -1,3 +1,3 @@
-# JLB Website
+# Jo's Website
 
-*this has useful shit*
+ * mywebpage.html - The OG homepage that is desperately in need of some TLC
