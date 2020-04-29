@@ -9,10 +9,14 @@ ul {
 li {
     float: left;
     width: 20%;
-    font-size: 18px;
-    padding: 14px 16px;
+    font-size: 20px;
     text-align: center;
-    min-height:50px;
+    min-height:65px;
+}
+
+.boxsize {
+    height: 30px;
+    box-sizing: border-box;
 }
 
 li a {
@@ -32,9 +36,15 @@ li a:hover:not(.active) {
     background-color: #3a95cf;
 }
 
+/*background gtadient goes here!*/
 .content {
     /* top right bottom left */
     margin: 0px 10px 10px 10px;
+}
+
+.gradient {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1) 40%);
+    height:100%;
 }
 
 body {
